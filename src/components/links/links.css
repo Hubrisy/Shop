@@ -1,0 +1,70 @@
+.main__links-container{
+    margin-top: 55px;
+    position: relative;
+    z-index: 5;
+}
+.overall__links-container{
+    margin-top: 55px;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+
+.links__title-container{
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+}
+.links__title-block{
+    display: flex;
+    align-items: center;
+}
+.links__title-block img + img{
+    margin-left: 15px;
+}
+.links__list-block{
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+}
+.links__list-item{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+}
+.links__list-item+.links__list-item{
+    margin-left: 45px;
+}
+.links__list-item:hover{
+    color: #6E9C9F;
+    cursor: pointer;
+}
+
+
+.links__contacts-and-bag{
+    display: flex;
+    align-items: center;
+}
+.links__phone{
+    display: flex;
+    align-items: center;
+}
+.links__phone img:hover{
+    border-bottom: 1px solid #6E9C9F;
+    cursor: pointer;
+}
+.links__bag img:hover{
+    cursor: pointer;
+}
+.links__phone span{
+    margin-left: 15px;
+}
+.links__contacts-and-bag div{
+    margin-left: 67px;
+}

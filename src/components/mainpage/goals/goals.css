@@ -1,0 +1,34 @@
+.goals__container{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.goals__title-block{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+}
+.goals__description-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+.goals__description-item{
+    max-width: 305px;
+}
+.goals__image-container{
+    height: 80px;
+}
+.goals__item-name{
+    margin-top: 37px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+}
+.goals__item-description{
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+}

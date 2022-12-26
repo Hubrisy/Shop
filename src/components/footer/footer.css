@@ -1,0 +1,51 @@
+.footer__container{
+    width: 100%;
+    background-color:#F1EADC;
+    height: 363px;
+    margin-top: 130px;
+}
+.footer__content-container{
+    max-width: 1110px;
+    height: 125px;
+    margin: 0 auto;
+    padding-top: 104px;
+}
+.content__first-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content__contacts-block{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.content__second-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 39px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.baseinfo__item + .baseinfo__item{
+    margin-top: 6px;
+}
+.second__line-gears{
+    margin-right: 435px;
+}
+.gears__item + .gears__item{
+    margin-top: 10px;
+}
+.second__links-images{
+    display: flex;
+    align-items: center;
+}
+.second__links-images img+img{
+    margin-left: 12px;
+}
+.payment__img{
+    margin-top: 31px;
+}
