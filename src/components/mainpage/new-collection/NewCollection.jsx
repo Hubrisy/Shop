@@ -7,7 +7,7 @@ import photo3 from '../../../images/newcollection_photo3.png';
 function NewCollection() {
     return (
         <div className='newcollection__container'>
-            <div className='newcollection__title'>Новая коллекция</div>
+            {/* <div className='newcollection__title'>Новая коллекция</div> */}
             <div className='newcollection__images-block'>
                 <div className='images__list-item'>
                     <img src={photo1} alt='' />
@@ -31,9 +31,9 @@ function NewCollection() {
                     </div>
                 </div>
             </div>
-            <div className='newcollection__button-block'>
+            {/* <div className='newcollection__button-block'>
                 <button className='newcollection__button'>Открыть магазин</button>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -32,9 +32,9 @@ function Footer() {
                         </div>
                         <div className='second__line-links-payment'>
                             <div className='second__links-images'>
-                                <img src={insta} alt="" />
-                                <img src={facebook} alt="" />
-                                <img src={twitter} alt="" />
+                                <div><a href='https://www.instagram.com/shpitalnuy.v/'><img src={insta} alt="" /></a></div>
+                                <div><img src={facebook} alt="" /></div>
+                                <div><img src={twitter} alt="" /></div>
                             </div>
                             <div className='payment__img'>
                                 <img src={payment} alt="" />
