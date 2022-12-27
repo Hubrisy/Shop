@@ -46,6 +46,9 @@
 .second__links-images img+img{
     margin-left: 12px;
 }
+.second__links-images img:hover{
+    cursor: pointer;
+}
 .payment__img{
     margin-top: 31px;
 }

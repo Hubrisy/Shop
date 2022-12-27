@@ -37,6 +37,8 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 21px;
+    color: #000000;
+    text-decoration: none;
 }
 .links__list-item+.links__list-item{
     margin-left: 45px;
