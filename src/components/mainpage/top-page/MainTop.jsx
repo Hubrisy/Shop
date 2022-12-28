@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import './maintop.css';
 
 import girlOne from '../../../images/girl1.png';
@@ -19,9 +21,9 @@ function MainTop(){
                     <div className='button__image-block'>
                         <img src={arrow} alt='' />
                     </div>
-                    <button className='maintop__button'>
+                    <Link className='button__link' to='/shop'><button className='maintop__button'>
                         Открыть магазин
-                    </button>
+                    </button></Link>
                 </div>
             </div>
             <div className='top__images-block'>

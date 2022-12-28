@@ -41,3 +41,6 @@
     border-bottom: 1px solid #6E9C9F;
     cursor: pointer;
 }
+.team__link{
+    text-decoration: none;
+}

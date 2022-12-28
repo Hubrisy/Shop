@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import Goals from "./goals/Goals";
 import NewCollection from "./new-collection/NewCollection";
 import Team from "./team/Team";
@@ -14,7 +16,7 @@ function MainPage(){
             </div>
             <NewCollection />
             <div className='newcollection__button-block'>
-                <button className='newcollection__button'>Открыть магазин</button>
+                <Link className='button__link' to ='/shop'><button className='newcollection__button'>Открыть магазин</button></Link>
             </div>
             <Goals />
             <Team />
