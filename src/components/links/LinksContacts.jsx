@@ -1,5 +1,6 @@
 import telephone from '../../images/telephone.svg'
 import bag from '../../images/bag.svg'
+import { Link } from 'react-router-dom';
 
 function LinksContacts() {
     return (
@@ -10,7 +11,7 @@ function LinksContacts() {
                     <span>+380-12-3456-789</span>
                 </div>
                 <div className='links__bag'>
-                    <img src={bag} alt='' />
+                    <Link to='/bag'><img src={bag} alt='' /></Link>
                 </div>
             </div>
         </div>

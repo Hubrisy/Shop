@@ -2,10 +2,12 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import AboutUs from './components/aboutUs/AboutUs';
+import Bag from './components/bag/Bag';
 import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
 import MainLinks from './components/links/MainLinks';
 import MainPage from './components/mainpage/MainPage';
+import MakeOrder from './components/makeorder/MakeOrder';
 import Shop from './components/shop/Shop';
 import CurrentItem from './components/shop/stuff/CurrentItem';
 
@@ -33,8 +35,9 @@ function App() {
           <Route path="/sweatshirt" element={
             <CurrentItem title='Свитшот Sweet Shot' listItem='Свитшоты' itemName='Свитшот Sweet Shot' img={modelPhoto3} price='$199'
               secondItemLink='/tshirt' secondItemImg={modelPhoto1} secondItemText='Футболка USA' secondItemPrice='$129' 
-              thirdItemLink='/swimsuit' thirdItemImg={modelPhoto2} thirdItemText='Купальник Glow' thirdItemPrice='$149' />
-          }></Route>
+              thirdItemLink='/swimsuit' thirdItemImg={modelPhoto2} thirdItemText='Купальник Glow' thirdItemPrice='$149' />}></Route>
+          <Route path="/bag" element={<Bag />}></Route>
+          <Route path='/order' element={<MakeOrder />}></Route>
         </Routes>
       </div>
       <Footer />
