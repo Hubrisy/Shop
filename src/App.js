@@ -7,7 +7,8 @@ import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
 import MainLinks from './components/links/MainLinks';
 import MainPage from './components/mainpage/MainPage';
-import MakeOrder from './components/makeorder/MakeOrder';
+import MakeOrder from './components/makeOrder/MakeOrder';
+import OrderRecived from './components/orderRecived/OrderRecived';
 import Shop from './components/shop/Shop';
 import CurrentItem from './components/shop/stuff/CurrentItem';
 
@@ -38,6 +39,7 @@ function App() {
               thirdItemLink='/swimsuit' thirdItemImg={modelPhoto2} thirdItemText='Купальник Glow' thirdItemPrice='$149' />}></Route>
           <Route path="/bag" element={<Bag />}></Route>
           <Route path='/order' element={<MakeOrder />}></Route>
+          <Route path='/orderrecived' element={<OrderRecived />}></Route>
         </Routes>
       </div>
       <Footer />
