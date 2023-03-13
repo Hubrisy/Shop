@@ -70,3 +70,12 @@
 .links__contacts-and-bag div{
     margin-left: 67px;
 }
+.links__bag{
+    position: relative;
+}
+.links__bag-amount{
+    position: absolute;
+    color: #000000;
+    left: -40px;
+    bottom:20px;
+}

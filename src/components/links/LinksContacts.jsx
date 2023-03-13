@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 import ModalWindow from '../modalWindow/ModalWindow';
+import { useSelector } from 'react-redux';
 
 function LinksContacts() {
 
     const [modalActive,setModalActive] = useState(false);
+    const amountItem = useSelector(state => state.amount.amount)
 
     return (
         <div className='links__contacts-bag-container'>
@@ -18,6 +20,7 @@ function LinksContacts() {
                     <span>+380-12-3456-789</span>
                 </div>
                 <div className='links__bag'>
+                    <div className='links__bag-amount'>{amountItem}</div>
                     <Link to='/bag'><img src={bag} alt='' /></Link>
                 </div>
             </div>
