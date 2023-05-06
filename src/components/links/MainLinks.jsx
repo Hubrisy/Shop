@@ -8,7 +8,7 @@ function MainLinks(props) {
         <div className='main__links-container'>
             <div className='overall__links-container'>
                 <LinkTitle />
-                <LinksContacts/>
+                <LinksContacts amountValue={props.amountValue}/>
             </div>
         </div>
     )
