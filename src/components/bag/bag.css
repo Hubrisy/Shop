@@ -1,0 +1,138 @@
+.bag__container{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 196px;
+}
+.bag__title{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.bag__subtitle-container{
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 180px;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+.bag__second-word{
+    color: #909090;
+}
+
+
+.bag__products-branches-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 214px;
+    max-width: 1010px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+/* .bag__items-title-block span+span{
+    margin-left: 140px;
+} */
+.bag__border{
+    max-width: 1110px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 26px;
+}
+.bag__product-block{
+    margin-top: 23px;
+    max-height: 500px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #000000;
+    max-width: 1010px;
+}
+.bag__items-block{
+    margin-left: 140px;
+}
+.bag__items-block span+span{
+    margin-left: 185px;
+}
+
+
+.bag__function-block{
+    margin-top: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+.bag__coupon-block{
+    max-width: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bag__couponText-block{
+    margin-right: 16px;
+}
+.bag__couponText-block input{
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    outline: none;
+}
+.bag__coupon-border{
+    border-bottom: 1px solid #000000;
+    width: 255px;
+    margin-top: 23px;
+}
+.bag__button-container{
+    margin-bottom: 17px;
+}
+.bag__button-container button{
+    height: 68px;
+    width: 248px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;  
+    color: #6E9C9F;
+    border: 1px solid #6E9C9F;
+    background-color: #FFFFFF;
+}
+.bag__button-container button:hover{
+    color: #FFFFFF;
+    background-color: #6E9C9F;
+    transition: all .4s;
+}
+
+
+.bag__confirmButton-block{
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+}
+.bag__finalPrice-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 287px;
+    height: 68px;
+    background-color: #F1EADC;
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.bag__confirm-button button{
+    height: 68px;
+    width: 236px;
+    background-color: #6E9C9F;
+    color: #FFFFFF;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.bag__confirm-button button:hover{
+    color:#6E9C9F;
+    border: 1px solid #6E9C9F;
+    background-color: #FFFFFF;
+    transition: all .4s;
+}

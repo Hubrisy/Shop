@@ -1,0 +1,126 @@
+.contacts__container{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 196px;
+}
+.contacts__title{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.contacts__subtitle-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    max-width: 180px;
+}
+.contacts__lead-word{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+}
+.contacts__second-word{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #909090;
+}
+
+
+.contacts__map-block{
+    margin-top: 214px;
+}
+.contacts__map-block img{
+    width: 1110px;
+    height: 475px;
+}
+
+
+.contacts__contact-block{
+    display: flex;
+    justify-content: space-between;
+    max-width: 943px;
+    margin-top: 130px;
+}
+.contact__text{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.contact__info{
+    margin-top: 19px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+.contact__us-block{
+    margin-top: 130px;
+    max-width: 443px;
+}
+.contact__us-title{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.contact__us-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 62px;
+}
+.inputs__item input{
+    border: none;
+    outline: none;
+    width: 350px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.inputs__item + .inputs__item{
+    margin-top: 35px;
+}
+.inputs__item textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    width: 350px;
+    height: 110px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.input__main-border{
+    border-bottom: 1px solid #000000;
+    max-width: 350px;
+    margin-top: 16px;
+}
+.input__long-border{
+    border-bottom: 1px solid #000000;
+    max-width: 443px;
+}
+
+
+.contact__us-button-block{
+    margin-top: 35px;
+}
+.contact__us-button-block button{
+    width: 189px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #6E9C9F;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.contact__us-button-block button:hover{
+    border: 1px solid #6E9C9F ;
+    background-color: #FFFFFF;
+    color: #6E9C9F;
+    transition: all .4s;
+}

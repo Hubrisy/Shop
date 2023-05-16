@@ -1,0 +1,146 @@
+.order__container{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 196px;
+}
+.order__title{
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.order__subtitle-block{
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+    margin-top: 26px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.order__second-word{
+    color: #909090;
+}
+
+
+.order__content-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 214px;
+    max-width: 920px;
+}
+.order__data-block{
+    max-width: 350px;
+}
+.order__data-title{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.order__data-info + .order__data-info{
+    margin-top: 81px;
+}
+.order__data-list{
+    margin-top: 47px;
+}
+.order__input-block input{
+    border: none;
+    outline: none;
+    max-width: 350px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.order__input-block textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    width: 350px;
+    height: 110px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.order__input-block+.order__input-block{
+    margin-top: 35px;
+}
+.order__border{
+    border-bottom: 1px solid #000000;
+    margin-top: 16px;
+}
+.order__textarea-border{
+    border-bottom: 1px solid #000000;
+}
+
+
+.order__and-payment-block{
+    width: 255px;
+}
+.your__order-data{
+    margin-top: 47px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.your__order-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.your__order-list +.your__order-list{
+    margin-top: 30px;
+}
+.your__order-final{
+    height: 57px;
+    background-color: #F1EADC;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.order__payment-method{
+    margin-top: 145px;
+}
+.order__checkbox-block{
+    margin-top: 48px;
+}
+.order__checkbox-item{
+    display: flex;
+    align-items: center;
+}
+.order__checkbox-item + .order__checkbox-item{
+    margin-top: 25px;
+}
+.order__custom-checkbox{
+    height: 22px;
+    width: 22px;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+}
+.order__payment-type{
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.order__button-block{
+    margin-top: 47px;
+}
+.order__button-block button{
+    width: 246px;
+    height: 68px;
+    background-color: #6E9C9F;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    border: none;
+}
+.order__button-block button:hover{
+    border: 1px solid #6E9C9F;
+    background-color: #FFFFFF;
+    color: #6E9C9F;
+    transition: all .4s;
+}
