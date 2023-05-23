@@ -11,7 +11,6 @@ function LinksContacts(props) {
     const [modalActive,setModalActive] = useState(false);
 
     const myValue = props.amountValue
-    // const [amount,setAmount] = useState(10);
 
     // useEffect(() => {
     //     const data = window.localStorage.getItem('amount');
