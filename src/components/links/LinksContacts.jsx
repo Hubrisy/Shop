@@ -11,18 +11,6 @@ function LinksContacts(props) {
     const [modalActive,setModalActive] = useState(false);
 
     const myValue = props.amountValue
-
-    // useEffect(() => {
-    //     const data = window.localStorage.getItem('amount');
-    //     if (data) {
-    //       setAmount(JSON.parse(data));
-    //     }
-    //   }, []);
-    
-    //   useEffect(() => {
-    //     window.localStorage.setItem('amount', JSON.stringify(amount));
-    //   }, [amount]);
-
     
     return (
         <div className='links__contacts-bag-container'>
