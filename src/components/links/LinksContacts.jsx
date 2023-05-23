@@ -23,7 +23,7 @@ function LinksContacts(props) {
     //     window.localStorage.setItem('amount', JSON.stringify(amount));
     //   }, [amount]);
 
-    //   console.log(amount)
+    
     return (
         <div className='links__contacts-bag-container'>
             <div className='links__contacts-and-bag'>
