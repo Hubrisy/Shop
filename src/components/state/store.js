@@ -1,5 +1,4 @@
 import {combineReducers, legacy_createStore as createStore} from 'redux';
-// import { amountReducer } from './reducers/amountReducer';
 import { bagReducer } from './reducers/bagReducer';
 import { itemReducer } from './reducers/itemReducer';
 import { persistStore, persistReducer } from 'redux-persist'
