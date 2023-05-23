@@ -11,14 +11,6 @@ function Bag() {
         dispatch({type:'CLEAR_ITEM'})
     }
     
-    // const reloadPage = () => {
-    //     window.location.reload(false)
-    // }
-
-    // const combineFunc = () => {
-    //     bagClear();
-    //     reloadPage(false);
-    // }
     return (
         <div className='bag__container'>
             <div className='bag__title'>Корзина</div>
