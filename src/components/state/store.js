@@ -12,7 +12,6 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
     item:itemReducer,
-    // amount:amountReducer,
     bag:bagReducer,
 })
 
