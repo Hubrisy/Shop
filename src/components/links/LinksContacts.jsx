@@ -2,7 +2,7 @@ import telephone from '../../images/telephone.svg'
 import bag from '../../images/bag.svg'
 
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import ModalWindow from '../modalWindow/ModalWindow';
 
